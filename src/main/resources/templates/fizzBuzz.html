@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+	
+<head>
+	<meta charset="UTF-8">
+	<title>FizzBuzz</title>
+</head>
+
+<body>
+	<h1>FizzBuzz</h1>
+	<ul th:each="numberList : ${arrlists}">
+		<li th:text="${numberList}"></li>
+	</ul>
+</body>
+</html>
